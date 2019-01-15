@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 启用极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <!--  -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="KeyWords" content="首页">
+    <meta name="description" content="首页">
+    <title>首页</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/upimages/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name='apple-touch-fullscreen' content='yes'>
+    <meta name="full-screen" content="yes">
+    <!-- SEO友好提示 -->
+    <meta name="applicable-device" content="pc,mobile">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/js/comm/html5shiv.js"></script>
+    <script type="text/javascript" src="/js/comm/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="js\comm\jquery.min.js"></script>
+    <script type="text/javascript" src="js\comm\jquery.lazyload.min.js"></script>
+    <script type="text/javascript" src="js\comm\jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js\comm\ubox.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js\comm\wow.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js\comm\alert.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js\061843.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="css\comm\font\css\font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css\comm\animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css\comm\box.css">
+    <link rel="stylesheet" type="text/css" href="css\comm\alert.css">
+    <link rel="stylesheet" type="text/css" href="css\061843.css">
+
+    <script>
+      //是否手机端判断
+      var ua = navigator.userAgent;
+      var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+              isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+              isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+              isMobile = isIphone || isAndroid;
+      if(isMobile){
+        $("head").append("<meta content='width=320,user-scalable=no' name='viewport'>");
+      }else{
+        $("head").append("<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport' />");
+      }
+    </script>
+    <script>
+      if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+        new WOW().init();
+      };
+      var DIY_WEBSITE_ID = "1113";
+      var DIY_JS_SERVER = "s143js.nicebox.cn";
+    </script>
+  </head>
+  <body>
+    <script type="text/javascript">var Default_isFT = 0;</script>
+    <script type="text/javascript" src="js\comm\transform.js?201603091"></script>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
