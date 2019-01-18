@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Index from './views/Index.vue'
+import News from './views/News.vue'
+import Contact from './views/Contact.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -18,6 +20,16 @@ export default new Router({
       path: '/index',
       name: 'index',
       component: Index
+    },
+    {
+      path: '/news',
+      name: 'news',
+      component: News
+    },
+    {
+      path: '/contat',
+      name: 'contat',
+      component: Contact
     },
     {
       path: '/about',

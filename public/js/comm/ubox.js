@@ -284,12 +284,12 @@ if(typeof loadExtendFileExists==='undefined'){
 	return paras;
 } */
 
-function goserverurl(sys_url,DIY_JS_SERVER,DIY_WEBSITE_ID){
-	var params = GetUrlPara();
-	var serverUrl='http://'+DIY_JS_SERVER+'/sysTools.php?mod=viewsConn&idweb='+DIY_WEBSITE_ID+'&'+params+sys_url;
-	var newserverUrl="<scr"+"ipt type='text/javascript' src="+serverUrl+"></scr"+"ipt>";
-	$("body").append(newserverUrl);
-}
+// function goserverurl(sys_url,DIY_JS_SERVER,DIY_WEBSITE_ID){
+// 	var params = GetUrlPara();
+// 	var serverUrl='http://'+DIY_JS_SERVER+'/sysTools.php?mod=viewsConn&idweb='+DIY_WEBSITE_ID+'&'+params+sys_url;
+// 	var newserverUrl="<scr"+"ipt type='text/javascript' src="+serverUrl+"></scr"+"ipt>";
+// 	$("body").append(newserverUrl);
+// }
 
 
 

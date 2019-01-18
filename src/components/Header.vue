@@ -11,14 +11,14 @@
                   <div class="sidebar icoMenuSet" onclick="setDhListen('style_01',this)">=</div>
                   <div class="menuScroll">
                     <ul class="menuUlCopy">
-                      <li id="hot" class="rflex" pageid="61843" showmobile="">
+                      <li class="rflex" pageid="61843" showmobile="">
                         <a class="mainMenuSet" href="index.html">首页</a>
                       </li>
                       <li class="rflex" pageid="61844" showmobile="">
                         <a class="mainMenuSet" href="61844-61844.html">联系</a>
                       </li>
                       <li class="rflex" pageid="61845" showmobile="">
-                        <a class="mainMenuSet" href="61845-61845.html">新闻</a>
+                        <a class="mainMenuSet" href="61845-61845.html">新闻中心</a>
                       </li>
                       <li class="rflex" pageid="61846" showmobile="">
                         <a class="mainMenuSet" href="61846-61846.html">关于</a>
@@ -32,14 +32,14 @@
               </ul>
               <div class="menuUl_box columnSet showpc">
                 <ul class="menuUl dflex">
-                  <li id="hot" class="rflex" pageid="61843" showpc="">
+                  <li class="rflex" pageid="61843" showpc="">
                     <a class="mainMenuSet" href="index.html">首页</a>
                   </li>
                   <li class="rflex" pageid="61844" showpc="">
                     <a class="mainMenuSet" href="61844-61844.html">联系</a>
                   </li>
                   <li class="rflex" pageid="61845" showpc="">
-                    <a class="mainMenuSet" href="61845-61845.html">新闻</a>
+                    <a class="mainMenuSet" href="61845-61845.html">新闻中心</a>
                   </li>
                   <li class="rflex" pageid="61846" showpc="">
                     <a class="mainMenuSet" href="61846-61846.html">关于</a>
@@ -67,6 +67,6 @@
 
 <script>
 export default {
-  name: 'header'
+  name: 'headers'
 }
 </script>
